@@ -211,7 +211,7 @@ if [ -d "/data/tmp/vrtheme-backup" ]; then
 	cd /data/tmp/vrtheme-backup/
   /data/tmp/vrtheme/zip -r /data/tmp/vrtheme/vrtheme_restore.zip *
     
-    if [ ! -d "/sdcard/vrtheme-backup" ] then
+    if [ ! -d "/sdcard/vrtheme-backup" ]; then
         busybox mkdir -p /sdcard/vrtheme-backup
     fi
 	
